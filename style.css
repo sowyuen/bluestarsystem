@@ -1,0 +1,224 @@
+/* navbar dropdown on hover */
+
+.dropdown-menu a:hover {background-color: #a58c31;}
+
+.dropdown:hover .dropdown-menu {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+//////////////////////////////////////////////////////
+.img-responsive{
+  width: auto;
+  height: 100vh; // make sure whole of window is covered
+  background-position: 50% 50%; // center the image
+  background-size: cover; // cover, not contain!
+}
+.slick-slide {
+  width: 100vw;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container{
+  width: 100%; // the window width 
+  position: fixed; // crucial, this keeps it in one place, scrolling has no effect
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.maps {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paddingContact-container {
+    padding: 68px 15px 72px !important;
+}
+.container h1.white, .company-heading h1 {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 100 !important;
+    text-transform: capitalize;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.control-group {
+  margin-bottom: 15px;
+}
+.form {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.white {
+    color: #fff;
+}
+.container p {
+    font-style: normal !important;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0px;
+}
+.theme-selector {
+  display: none;
+}
+.contact-page-form h3 {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.parallax {
+    background-attachment: inherit !important;
+}
+.parallax {
+    background-attachment: inherit !important;
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: -10;
+    height: 300px
+}
+h3 {
+    font-size: 20px;
+    margin: 35px 0px 25px;
+    font-weight: 800;
+    color: #3d3d3d;
+    text-transform: uppercase;
+}
+
+.map-overlay h3 {
+    color: #fff;
+    border-bottom: 2px solid #d2282e;
+    padding-bottom: 15px;
+}
+
+.map-overlay {
+    background: #000;
+    -webkit-box-shadow: 0px 1px 10px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 1px 10px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 1px 10px rgba(50, 50, 50, 0.75);
+    width: 500px;
+    height: 320px;
+    position: relative;
+    float: left;
+    z-index: 300;
+    left: 0px;
+    top: 675px;
+    padding: 25px;
+    margin-top: -550px;
+    border: 3px solid #fff;
+}
+
+.marginBottom40 {
+    margin-bottom: 40px;
+}
+
+.map-overlay p {
+    color: #fff;
+}
+
+.btn-primary {
+  width: 100%;
+}
+
+.contact-right-info {
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 991px) {
+  .contact-right-info {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .contact-right-info {
+    text-align: left;
+  }
+  .map-overlay {
+    left: 0px;
+  }
+}
+
+
+    .my-form {
+        color: #305896;
+    }
+    .my-form .btn-default {
+        background-color: #305896;
+        color: #fff;
+        border-radius: 0;
+    }
+    .my-form .btn-default:hover {
+        background-color: #4498C6;
+        color: #fff;
+    }
+    .my-form .form-control {
+        border-radius: 0;
+    }
+
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+.main-container {
+   min-height:100%;
+   position:relative;
+}
+nav {
+   background:#ff0;
+   padding:10px;
+}
+section {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+footer {
+    position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-height: 100px;
+  max-height: 120px;
+  background-color: #f8f9fa;
+  color: black;
+  font-family: "Helvetica Neue", Helvetica;
+  padding: 10px 0px;
+  padding-top: 10px;
+  margin-top: 30px;
+  font-weight: 100;
+  clear: both;
+}
+
+.container-big{
+  font-size: 12px;
+}
+
+.allContent{
+ -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 115px;
+  clear: both;
+}
+.footerpadding{
+  padding: 15px;
+}
+
+.quickLink{
+  text-align: left;
+}
+.footerTitle{
+  font-weight: 700;
+}
