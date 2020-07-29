@@ -11,9 +11,10 @@
 }
 .navbar-custom .dropdown-item {
     color: white;
+    font-size: 12px;
 }
 //////////////////////////////////////////////////////
-.img-responsive{
+/*.img-responsive{
   width: auto;
   height: 100vh; // make sure whole of window is covered
   background-position: 50% 50%; // center the image
@@ -33,7 +34,14 @@
 .slick-next:before {
   color: black;
 }
-
+*/
+.container{
+  width: 100%;
+}
+.img-responsive{
+  width:100%;
+  height: auto;
+}
 .maps {
  display: block;
   margin-left: auto;
@@ -168,7 +176,6 @@ h3 {
     }
 
 html, body {
-   margin:0;
    padding:0;
    height:100%;
    font-family: 'Nanum Gothic', sans-serif;
@@ -186,9 +193,9 @@ section {
    padding-bottom:60px;   /* Height of the footer */
 }
 
-* {
+/** {
   box-sizing: border-box;
-}
+}*/
 
 .column {
   float: left;
