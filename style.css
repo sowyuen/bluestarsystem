@@ -1,12 +1,17 @@
 /* navbar dropdown on hover */
 
-.dropdown-menu a:hover {background-color: #a58c31;}
+.dropdown-menu a:hover {background-color:#5089f2;}
 
 .dropdown:hover .dropdown-menu {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-
+.dropdown:hover .dropbtn {background-color: 
+#5089f2;}
+.navbar-custom .dropdown-menu {
+    background-color: #5089f2;
+}
+.navbar-custom .dropdown-item {
+    color: white;
+}
 //////////////////////////////////////////////////////
 .img-responsive{
   width: auto;
