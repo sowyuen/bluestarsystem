@@ -12,6 +12,8 @@
 .navbar-custom .dropdown-item {
     color: white;
     font-size: 12px;
+    font-weight:bold;
+
 }
 //////////////////////////////////////////////////////
 /*.img-responsive{
@@ -70,8 +72,7 @@
     font-style: normal !important;
     color: #fff;
     font-size: 20px;
-    font-weight:900;
-}
+  }
 .theme-selector {
   display: none;
 }
