@@ -179,46 +179,25 @@ section {
    padding:10px;
    padding-bottom:60px;   /* Height of the footer */
 }
-footer {
-    position: fixed;
-  bottom: 0;
-  width: 100%;
-  min-height: 100px;
-  max-height: 120px;
-  background-color: #f8f9fa;
-  color: black;
-  font-family: "Helvetica Neue", Helvetica;
-  padding: 10px 0px;
-  padding-top: 10px;
-  margin-top: 30px;
-  font-weight: 100;
-  clear: both;
+
+* {
+  box-sizing: border-box;
 }
 
-.container-big{
-  font-size: 12px;
-}
-
-.allContent{
- -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #fff;
-  border: 1px solid #ccc;
-  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-  padding: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-bottom: 115px;
-  clear: both;
-}
-.footerpadding{
+.column {
+  float: left;
+  width: 25%;
   padding: 15px;
 }
 
-.quickLink{
-  text-align: left;
+.row{
+  height: 40%;
+  width: 70%;
+  margin: 0 auto;
 }
-.footerTitle{
-  font-weight: 700;
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
