@@ -166,6 +166,7 @@ html, body {
    margin:0;
    padding:0;
    height:100%;
+   font-family: 'Nanum Gothic', sans-serif;
 }
 .main-container {
    min-height:100%;
