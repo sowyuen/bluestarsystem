@@ -38,10 +38,10 @@
 }
 */
 
-.img-responsive{
+/*.image-slider{
   width:100%;
-  height: auto;
-}
+  height: 216vh;
+}*/
 .maps {
  display: block;
   margin-left: auto;
@@ -175,26 +175,12 @@ h3 {
     }
 
 html, body {
-   padding:0;
-   height:100%;
    font-family: 'Nanum Gothic', sans-serif;
 }
 .main-container {
    min-height:100%;
    position:relative;
 }
-nav {
-   background:#ff0;
-   padding:10px;
-}
-section {
-   padding:10px;
-   padding-bottom:60px;   /* Height of the footer */
-}
-
-/** {
-  box-sizing: border-box;
-}*/
 
 .column {
   float: left;
@@ -212,4 +198,32 @@ section {
   content: "";
   clear: both;
   display: table;
+}
+
+.navBarz{
+  padding: 0px;
+}
+
+.vl {
+  border-left: 5px solid #5089f2;
+  height: 20px;
+  position: absolute;
+  left: 0%;
+  margin-left: 6px;
+  margin-top: 23px;
+  margin-right: 6px;
+  top: 50;
+  display: table-cell;
+}
+
+.aboutBSS{
+  color: #787878;
+  font-size: 20px;
+  font-family: Arial,"Nanum Gothic","Gulim","Dotum";
+  display: table-cell;
+  padding: 18px 10px 0 16px; 
+  letter-spacing: -1px;
+}
+hr.solid {
+  border-top: 1px solid #e8e8e8;
 }
