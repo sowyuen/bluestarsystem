@@ -252,7 +252,10 @@ hr.solid {
   margin:0;
 }
 
-.co-content{
+.co-content, .overview{
   padding:20px;
-  margin:0 auto;
+}
+
+.overview{
+  width: 95%;
 }
