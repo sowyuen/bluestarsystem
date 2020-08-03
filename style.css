@@ -19,6 +19,11 @@
 .dropdown-menu {
     min-width: 0.5rem;
 }
+
+.diamond-icon{
+  color: #5089f2 ;
+  border: 100;
+}
 //////////////////////////////////////////////////////
 /*.img-responsive{
   width: auto;
@@ -230,4 +235,24 @@ html, body {
 }
 hr.solid {
   border-top: 1px solid #e8e8e8;
+}
+
+ .diamond-icon, .co-mainTitle{
+  display:inline; 
+}
+.co-top{
+  font-size: 14px;
+}
+.co-bot{
+  color: #5089f2;
+  font-size:11pt;
+}
+
+.co-top, .co-bot{
+  margin:0;
+}
+
+.co-content{
+  padding:20px;
+  margin:0 auto;
 }
