@@ -191,17 +191,35 @@ html, body {
    position:relative;
 }
 
-.column {
+* {
+  box-sizing: border-box;
+}
+
+.customer-column {
   float: left;
   width: 25%;
   padding: 15px;
 }
 
-.row{
+.customer-row{
   height: 40%;
   width: 70%;
   margin: 0 auto;
 }
+
+
+
+.pns-row{
+  height: 50%;
+  width: 90%;
+  margin: 0 auto;
+}
+.pns-column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
 /* Clearfix (clear floats) */
 .row::after {
   content: "";
@@ -258,4 +276,8 @@ hr.solid {
 
 .overview{
   width: 95%;
+}
+
+.pnsPic{
+  display:flex;
 }
