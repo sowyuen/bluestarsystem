@@ -199,6 +199,7 @@ html, body {
   float: right;
   width: 25%;
   padding: 5px;
+  border: 0.5px solid #ebebeb;
 }
 
 .customer-row{
@@ -207,6 +208,7 @@ html, body {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  border: 0.5px solid #ebebeb;
 }
 
 
