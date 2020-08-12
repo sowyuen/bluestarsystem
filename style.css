@@ -252,7 +252,17 @@ html, body {
   top: 50;
   display: table-cell;
 }
-
+.vl2 {
+  border-left: 5px solid #5089f2;
+  height: 20px;
+  position: absolute;
+  left: 11%;
+  margin-left: 6px;
+  margin-top: 23px;
+  margin-right: 6px;
+  top: 50;
+  display: table-cell;
+}
 .aboutBSS{
   color: #787878;
   font-size: 20px;
@@ -295,6 +305,10 @@ hr.solid {
 .classWithPad { 
   margin:15px; 
   padding:15px;
+   }
+
+   .sbsTag { 
+    display: inline-block; 
    }
 
 
