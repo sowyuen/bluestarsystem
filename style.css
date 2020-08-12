@@ -209,7 +209,7 @@ html, body {
 }
 
 .customer-row{
-  height: 40%;
+  height: 50%;
   width: 70%;
   margin: 0 auto;
   display: flex;
@@ -225,7 +225,7 @@ html, body {
 }
 
 .brand-row{
-  height: 80%;
+  height: 50%;
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -328,4 +328,10 @@ hr.solid {
     display: inline-block; 
    }
 
+
+/*.classWithPad1{
+  background: url(qcdShade.jpg);
+  background-size: cover; 
+  opacity: 0.5;
+}*/
 
