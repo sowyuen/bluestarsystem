@@ -292,6 +292,9 @@ hr.solid {
   display:flex;
 }
 
-.overview1{
-  padding: 10px;
-}
+.classWithPad { 
+  margin:15px; 
+  padding:15px;
+   }
+
+
