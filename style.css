@@ -21,7 +21,10 @@
         } 
         
 .dropdown-menu {
-    min-width: 0.5rem;
+    min-width: 1rem;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    top: 100% !important;
 }
 
 .diamond-icon{
