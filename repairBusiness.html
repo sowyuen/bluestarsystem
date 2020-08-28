@@ -12,8 +12,11 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.0/slick-theme.css" rel="stylesheet"/>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.0/slick.css" rel="stylesheet"/>
 
+	<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+
 	<link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
 </head>
 <body>
 	<nav class=" navBarz navbar navbar-expand-lg navbar-light bg-white navbar-custom">
@@ -121,8 +124,23 @@
 			</li>
 		</ul>
 	</div>
-		
 
+	  
+	  <div class="parent-container">
+	  <a href="https://lorempixel.com/400/200/cats/1">Open popup 1</a>
+	  <a href="https://lorempixel.com/400/200/cats/2">Open popup 2</a>
+	  <a href="https://lorempixel.com/400/200/cats/3">Open popup 3</a>
+	</div>
+	<script>
+		$('.parent-container').magnificPopup({
+		  delegate: 'a', // child items selector, by clicking on it popup will open
+		  type: 'image'
+		  // other options
+		});
+	</script>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
