@@ -17,6 +17,15 @@
 	<link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">	
 
+    <style>
+    	.mfp-wrap.abc .mfp-content {
+    height: 800px;
+    max-height: 90vh;
+    width: 800px;
+    max-width: 90vw;
+}
+    </style>
+
 </head>
 <body>
 	<nav class=" navBarz navbar navbar-expand-lg navbar-light bg-white navbar-custom">
@@ -98,32 +107,67 @@
 	</div>
 
 
-	<div class="overview parent-container">
+	<div class="overview">
 		<b>Valve Refurbishment</b>
 		<p>Blue Star System offers our own in-house servicing, with highly skilled service engineers equipped with acquired knowledge and techniques, through years of experience in valve repair.</p>
 
 		<p>Types of valve include:</p>
-		<ul>
-			<li>
-				 <a class="abc" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/1200px-Logo_TVE-1.svg.png">Pendulum Valves</a>
-			</li>
-			<li>
-				  <a class="abc" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/ISR-FW-1.svg/687px-ISR-FW-1.svg.png">Throttle Valves & Butterfly Valves</a> 
-			</li>
-			<li>
-				  <a class="abc" href="https://previews.123rf.com/images/ingalinder/ingalinder1705/ingalinder170500032/77515524-colorful-flat-number-1-isolated-on-white-background.jpg">Gate Valves</a>
-			</li>
-			<li>
-				  <a class="abc" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/ISR-FW-1.svg/687px-ISR-FW-1.svg.png">Slit Valves</a> 
-			</li>
-			<li>
-				  <a class="abc" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/1200px-Logo_TVE-1.svg.png">ISO Valves</a>
-			</li>
-			<li>
-				   <a class="abc" href="https://previews.123rf.com/images/ingalinder/ingalinder1705/ingalinder170500032/77515524-colorful-flat-number-1-isolated-on-white-background.jpg">Cylinder & Actuators</a>
-				 
-			</li>
-		</ul>
+
+		
+			<ul>
+			  <div class="parent-container">
+				<li>
+					 <a class="abc" href="pendulum1.jpg" title="1.jpg">Pendulum Valves</a>
+					 <a class="abc" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/1200px-Logo_TVE-1.svg.png" title="2.jpg"></a>
+					 <a class="abc" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/1200px-Logo_TVE-1.svg.png" title="3.jpg"></a>
+					 <a class="abc" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/1200px-Logo_TVE-1.svg.png" title="4.jpg"></a>
+					 <a class="abc" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/1200px-Logo_TVE-1.svg.png" title="5.jpg"></a>
+					 <a class="abc" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/1200px-Logo_TVE-1.svg.png" title="6.jpg"></a>
+				</li>
+			  </div>
+
+			  <div class="parent-container1">
+				<li>
+					  <a class="abc" href="trottle1.jpg" title="1.jpg" >Throttle Valves & Butterfly Valves</a>
+					  <a class="abc" href="butterfly1.jpg" title="2.jpg" ></a> 
+					  <a class="abc" href="butterfly2.jpg" title="2.jpg" ></a>
+
+					   
+
+				</li>
+			  </div>
+
+			  <div class="parent-container2">
+				<li>
+					  <a class="abc" href="gate1.jpg" title="1.jpg">Gate Valves</a>
+					  <a class="gate" href="gate2.jpg" title="1.jpg"></a>
+					  <a class="gate" href="gate3.jpg" title="1.jpg"></a>
+				</li>
+			  </div>
+
+			  <div class="parent-container3">
+				<li>
+					  <a class="abc" href="slit1.jpg" title="1.jpg">Slit Valves</a> 
+					  <a class="abc" href="slit2.jpg" title="2.jpg"></a> 
+					  <a class="abc" href="slit3.jpg" title="3.jpg"></a> 
+				</li>
+			  </div>
+
+			  <div class="parent-container4">
+				<li>
+					  <a class="abc" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Logo_TVE-1.svg/1200px-Logo_TVE-1.svg.png" title="1.jpg">ISO Valves</a>
+				</li>
+			  </div>
+
+			  <div class="parent-container5">
+				<li>
+					   <a class="abc" href="https://previews.123rf.com/images/ingalinder/ingalinder1705/ingalinder170500032/77515524-colorful-flat-number-1-isolated-on-white-background.jpg" title="1.jpg">Cylinder & Actuators</a>
+					   <a class="abc" href="https://previews.123rf.com/images/ingalinder/ingalinder1705/ingalinder170500032/77515524-colorful-flat-number-1-isolated-on-white-background.jpg" title="2.jpg"></a>
+					 
+				</li>
+			  </div>
+			</ul>
+
 	</div>
 	  
 
@@ -140,9 +184,60 @@
 	<script>
 		$('.parent-container').magnificPopup({
 		  delegate: 'a', // child items selector, by clicking on it popup will open
-		  type: 'image'
+		  type: 'image',
+		  gallery:{
+			enabled:true
+		},
+
 		  // other options
 		});
+
+		$('.parent-container1').magnificPopup({
+		  delegate: 'a', // child items selector, by clicking on it popup will open
+		  type: 'image',
+		  gallery:{
+			enabled:true
+		},
+
+		  // other options
+		});
+		$('.parent-container2').magnificPopup({
+		  delegate: 'a', // child items selector, by clicking on it popup will open
+		  type: 'image',
+		  gallery:{
+			enabled:true
+		},
+
+		  // other options
+		});
+		$('.parent-container3').magnificPopup({
+		  delegate: 'a', // child items selector, by clicking on it popup will open
+		  type: 'image',
+		  gallery:{
+			enabled:true
+		},
+
+		  // other options
+		});
+		$('.parent-container4').magnificPopup({
+		  delegate: 'a', // child items selector, by clicking on it popup will open
+		  type: 'image',
+		  gallery:{
+			enabled:true
+		},
+
+		  // other options
+		});
+		$('.parent-container5').magnificPopup({
+		  delegate: 'a', // child items selector, by clicking on it popup will open
+		  type: 'image',
+		  gallery:{
+			enabled:true
+		},
+
+		  // other options
+		});
+
 
 	</script>
 
