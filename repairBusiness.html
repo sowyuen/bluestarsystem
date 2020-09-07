@@ -231,6 +231,11 @@
 		  gallery:{
 			enabled:true
 		},
+		callbacks: {
+                    resize: changeImgSize,
+                    imageLoadComplete:changeImgSize,
+                    change:changeImgSize
+                },
 
 		  // other options
 		});
@@ -241,6 +246,11 @@
 		  gallery:{
 			enabled:true
 		},
+		callbacks: {
+                    resize: changeImgSize,
+                    imageLoadComplete:changeImgSize,
+                    change:changeImgSize
+                },
 
 		  // other options
 		});
@@ -250,6 +260,11 @@
 		  gallery:{
 			enabled:true
 		},
+		callbacks: {
+                    resize: changeImgSize,
+                    imageLoadComplete:changeImgSize,
+                    change:changeImgSize
+                },
 
 		  // other options
 		});
@@ -259,6 +274,12 @@
 		  gallery:{
 			enabled:true
 		},
+		callbacks: {
+                    resize: changeImgSize,
+                    imageLoadComplete:changeImgSize,
+                    change:changeImgSize
+                },
+
 
 		  // other options
 		});
@@ -268,6 +289,11 @@
 		  gallery:{
 			enabled:true
 		},
+		callbacks: {
+                    resize: changeImgSize,
+                    imageLoadComplete:changeImgSize,
+                    change:changeImgSize
+                },
 
 		  // other options
 		});
@@ -277,9 +303,21 @@
 		  gallery:{
 			enabled:true
 		},
+		callbacks: {
+                    resize: changeImgSize,
+                    imageLoadComplete:changeImgSize,
+                    change:changeImgSize
+                },
 
 		  // other options
 		});
+
+        function changeImgSize(){
+            var img = this.content.find('img');
+            img.css('max-height', '450px');
+            img.css('width', '450px');
+            img.css('max-width', '450px');
+        }
 
 
 	</script>
