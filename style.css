@@ -318,7 +318,10 @@ hr.solid {
    .sbsTag { 
     display: inline-block; 
    }
-
+.contact-card{
+  display: table-cell;
+  position: absolute;
+}
 
 /*.classWithPad1{
   background: url(qcdShade.jpg);
