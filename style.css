@@ -263,56 +263,14 @@ html, body {
 
 .vl {
   border-left: 5px solid #5089f2;
-  height: 20px;
+  display: table-cell;
   position: absolute;
-  left: 0%;
-  margin-left: 6px;
+  height: 20px;
   margin-top: 23px;
-  margin-right: 6px;
-  top: 50;
-  display: table-cell;
-}
-.vl2 {
-  border-left: 5px solid #5089f2;
-  height: 20px;
-  position: absolute;
-  left: 14.7%;
   margin-left: 6px;
-  margin-top: 23px;
-  margin-right: 6px;
-  top: 50;
-  display: table-cell;
 }
-.v3 {
-  border-left: 5px solid #5089f2;
-  height: 20px;
-  position: absolute;
-  left: 30%;
-  margin-left: 6px;
-  margin-top: 23px;
-  margin-right: 6px;
-  top: 50;
-  display: table-cell;
-}
-.v5 {
-  border-left: 5px solid #5089f2;
-  height: 20px;
-  position: absolute;
-  left: 0%;
-  margin-left: 6px;
-  margin-top: 6px;
-  margin-right: 6px;
-  top: 50;
-  display: table-cell;
-}
-.BVC{
-  color: #787878;
-  font-size: 20px;
-  font-family: Arial,"Nanum Gothic","Gulim","Dotum";
-  display: table;
-  letter-spacing: -1px;
-  margin-left: 15px;
-}
+
+
 .aboutBSS{
   color: #787878;
   font-size: 20px;
