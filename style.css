@@ -298,4 +298,8 @@ hr.solid {
   display: table-cell;
   position: absolute;
 }
+.addressTel{
+  padding-top:10px;
+  margin-left:10%;
+}
 
