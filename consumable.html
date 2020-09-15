@@ -10,7 +10,17 @@
 	<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
 
 	<link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+  <style>
+    	.mfp-wrap.abc .mfp-content {
+    height: 800px;
+    max-height: 90vh;
+    width: 800px;
+    max-width: 90vw;
+}
+  </style>
+
 </head>
 <body>
 	<nav class=" navBarz navbar navbar-expand-lg navbar-light bg-white navbar-custom">
@@ -133,7 +143,7 @@
 					  <a class="abc" href="upDownShaftGuide.png" title="UP/DOWN SHAFT GUIDE"></a>
 					  <a class="abc" href="doorPlateFixing.png" title="DOOR PLATE FIXING SHAFT"></a>
 					  <a class="abc" href="upDownShaft.png" title="UP/DOWN SHAFT"></a>
-					  <a class="abc" href="clampUnclampCylinder.png" title="CLAMP/UNCLAMP CYLINDER"></a>
+					  <a class="abc" href="cucc.png" title="CLAMP/UNCLAMP CYLINDER"></a>
 					  <a class="abc" href="clampUnclampSensor.png" title="CLAMP/UNCLAMP SENSOR"></a>
 					  <a class="abc" href="upDownCylinder.png" title="UP/DOWN CYLINDER"></a>
 					  <a class="abc" href="upDownSensor.png" title="UP/DOWN SENSOR"></a>
@@ -232,68 +242,12 @@
 
 		  // other options
 		});
-		$('.parent-container5').magnificPopup({
-		  delegate: 'a', // child items selector, by clicking on it popup will open
-		  type: 'image',
-		  gallery:{
-			enabled:true
-		},
-		callbacks: {
-                    resize: changeImgSize,
-                    imageLoadComplete:changeImgSize,
-                    change:changeImgSize
-                },
-
-		  // other options
-		});
-		$('.parent-container6').magnificPopup({
-		  delegate: 'a', // child items selector, by clicking on it popup will open
-		  type: 'image',
-		  gallery:{
-			enabled:true
-		},
-		callbacks: {
-                    resize: changeImgSize,
-                    imageLoadComplete:changeImgSize,
-                    change:changeImgSize
-                },
-
-		  // other options
-		});
-		$('.parent-container7').magnificPopup({
-		  delegate: 'a', // child items selector, by clicking on it popup will open
-		  type: 'image',
-		  gallery:{
-			enabled:true
-		},
-		callbacks: {
-                    resize: changeImgSize,
-                    imageLoadComplete:changeImgSize,
-                    change:changeImgSize
-                },
-
-		  // other options
-		});
-		$('.parent-container8').magnificPopup({
-		  delegate: 'a', // child items selector, by clicking on it popup will open
-		  type: 'image',
-		  gallery:{
-			enabled:true
-		},
-		callbacks: {
-                    resize: changeImgSize,
-                    imageLoadComplete:changeImgSize,
-                    change:changeImgSize
-                },
-
-		  // other options
-		});
 
         function changeImgSize(){
             var img = this.content.find('img');
-            img.css('max-height', '450px');
-            img.css('width', '450px');
-            img.css('max-width', '450px');
+            img.css('max-height', '600px');
+            img.css('width', '600px');
+            img.css('max-width', '600px');
         }
 
 
