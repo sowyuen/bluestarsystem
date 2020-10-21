@@ -21,15 +21,15 @@
 // 	}
 
 window.onload=function(){
-  $('.slider').slick({
+  $('.one-time').slick({
   autoplay:true,
   autoplaySpeed:1500,
   arrows:true,
-  centerMode:true,
-  slidesToShow:1,
-  slidesToScroll:1,
-  variableWidth: true,
-  dots: true,
+   dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
   });
 };
 
