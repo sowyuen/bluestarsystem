@@ -318,3 +318,15 @@ hr.solid {
   margin-left:10%;
 }
 
+.qcdSentences{
+  display: flex;
+}
+
+.qcdHeader{
+  display: flex;
+}
+
+.qcdDash{
+  margin-right: 5px;
+  margin-left: 5px;
+}
