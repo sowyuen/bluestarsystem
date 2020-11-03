@@ -328,3 +328,7 @@ hr.solid {
 .qcdHeader{
   display: flex;
 } 
+
+.qcdPoints{
+  flex-shrink: 0;
+}
