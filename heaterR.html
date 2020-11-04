@@ -9,16 +9,38 @@
 
 	<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
 
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.0/slick-theme.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.0/slick.css" rel="stylesheet"/>
+
 	<link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">	
 
     <style>
     	.mfp-wrap.abc .mfp-content {
-    height: 800px;
-    max-height: 90vh;
-    width: 800px;
-    max-width: 90vw;
-}
+		    height: 800px;
+		    max-height: 90vh;
+		    width: 800px;
+		    max-width: 90vw;
+		}
+
+		.one-time{
+	      width:96%;
+	      margin:50px auto;
+	      text-align: center;
+	      padding:5px;
+	      color:white;
+	      .parent-slide{padding:15px;}
+	      img{display: block;margin:auto;}
+	    }
+    
+	    .slick-prev:before {
+	      color: black;
+	    }
+	    .slick-next:before {
+	      color: black;
+	    }
     </style>
 
 </head>
@@ -82,7 +104,16 @@
 		  </div>
 	</nav>
 	
-	<img src="https://www.sas-automotive.com/fileadmin/content/_Carousel/Stockfoto_Engineering_Slider.jpg" width="100%" height="240px"alt="" class="image-slider" />
+
+	<div class="one-time">
+      <div class="slide">
+        <img src="https://www.sas-automotive.com/fileadmin/content/_Carousel/Stockfoto_Engineering_Slider.jpg" width="100%" height="240px"alt="" class="image-slider" style="min-height: 240px; max-height: 240px; text-align: center; margin: 0px auto;" />
+      </div>		
+      <div class="slide">
+        <img src="heaterCustomer.jpg" alt="" class="img-responsive" style="min-height: 240px; max-height: 240px; text-align: center; margin: 0px auto;"/>
+      </div> 
+    </div>
+
 	<div class="header-about">
 		<div class="sbsTag">
 		    <div class="vl">
@@ -215,6 +246,17 @@
 	
 	<script src="magnific-popup/magnific-popup.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+
+	 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>  
+	  
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
+	<script src="index.js"></script>
 
 
 		<script>
