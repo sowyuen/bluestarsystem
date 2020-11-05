@@ -332,3 +332,15 @@ hr.solid {
 .qcdPoints{
   flex-shrink: 0;
 }
+
+.vmHeader{
+  text-indent: 1em;
+}
+
+.vision, .mission{
+  padding-left:10px;
+}
+
+.visionIcon, .missionIcon{
+  text-indent:-20px;
+}
