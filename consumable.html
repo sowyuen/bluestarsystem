@@ -171,6 +171,8 @@
   <script src="magnific-popup/magnific-popup.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
 
 		<script>
 		$('.parent-container').magnificPopup({
@@ -247,7 +249,8 @@
 		});
 
         function changeImgSize(){
-            img.css('max-width', '95%');
+        	var img = this.content.find('img');
+            img.css('max-width', '100%');
             img.css('height', 'auto');
         }
 
