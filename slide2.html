@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>My Now Amazing Webpage</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"></link>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.0/slick-theme.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.0/slick.css" rel="stylesheet"/>
+
+  <style>
+    .one-time{
+      width:96%;
+      margin:50px auto;
+      text-align: center;
+      padding:5px;
+      color:white;
+      .parent-slide{padding:15px;}
+      img{display: block;margin:auto;}
+    }
+    
+    .slick-prev:before {
+      color: black;
+    }
+    .slick-next:before {
+      color: black;
+    }
+  </style>
+
+  </head>
+  <body>
+
+
+    <div class="one-time">
+      <div class="slide">
+        <img src="heaterCustomer.jpg" alt="" class="img-responsive" style="min-height: 400px; max-height: 400px; text-align: center; margin: 0px auto;"/>
+      </div>
+      <div class="slide">
+        <img src="repairBusinessCustomer.jpg" alt="" class="img-responsive" style="min-height: 400px; max-height: 400px; text-align: center; margin: 0px auto;"/>
+      </div>
+      <div class="slide">
+        <img src="pumpCustomer.jpg" alt="" class="img-responsive"style="min-height: 400px; max-height: 400px; text-align: center; margin: 0px auto;"/>
+      </div>
+      <div class="slide">
+        <img src="https://www.sas-automotive.com/fileadmin/content/_Carousel/Stockfoto_Engineering_Slider.jpg" width="100%" height="240px"alt="" class="image-slider" style="min-height: 400px; max-height: 400px; text-align: center; margin: 0px auto;" />
+      </div>
+    </div>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>  
+  
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
+<script src="index.js"></script>
+
+<script>
+  window.onload=function(){
+  $('.one-time').slick({
+  autoplay:true,
+  autoplaySpeed:1500,
+  arrows:true,
+   dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
+  });
+};
+</script>
+
+  </body>
+</html>

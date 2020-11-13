@@ -20,18 +20,26 @@
 // 		 console.log("inside plusDivs", slideIndex);
 // 	}
 
+
+
 window.onload=function(){
-  $('.one-time').slick({
-  autoplay:true,
-  autoplaySpeed:1500,
-  arrows:true,
-   dots: true,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 1,
-  adaptiveHeight: true
+  $(".Modern-Slider").slick({
+    autoplay:true,
+    autoplaySpeed:10000,
+    speed:600,
+    slidesToShow:1,
+    slidesToScroll:1,
+    pauseOnHover:false,
+    dots:true,
+    pauseOnDotsHover:true,
+    cssEase:'linear',
+   // fade:true,
+    draggable:false,
+    prevArrow:'<button class="PrevArrow"></button>',
+    nextArrow:'<button class="NextArrow"></button>', 
   });
 };
+
 
 $('#select-beast').selectize({
 					create: true,
