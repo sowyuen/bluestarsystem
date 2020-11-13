@@ -62,9 +62,12 @@
 }
 
 .Modern-Slider .item .img-fill .info{
-  width:auto;
-  height:auto;
-  object-fit: contain;
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  line-height:100vh;
   text-align:center;
 }
 
@@ -139,7 +142,7 @@
   text-transform:uppercase;
   color:black;
   background-color:white;
-  animation:fadeOutRight 1s both;
+  animation:fadeOutRight 1s infinite;
   margin:0;
   padding:0;
 }
@@ -152,7 +155,7 @@
   max-width:600px;
   overflow:hidden;
   height:60px;
-  animation:fadeOutLeft 1s both;
+  animation:fadeOutLeft 1s infinite;
 }
 
 .Modern-Slider .item.slick-active h3{
@@ -187,7 +190,7 @@
   -ms-user-select:none;
   user-select:none;
   -webkit-touch-callout:none;
-  -khtml-user-select:none;
+  -html-user-select:none;
   -ms-touch-action:pan-y;
   touch-action:pan-y;
   -webkit-tap-highlight-color:transparent;
@@ -256,9 +259,9 @@
   <!-- Item -->
       <div class="item">
         <div class="img-fill">
-          <div class="info">
-            <div>
-              <img src="recruitment.jpg"  style="height:100%; width:100%;object-fit: contain; "/>
+          <div class="info" style="height:100%">
+            <div style="height:100%; width:100%">
+              <img src="recruitment.jpg"  style="height:100%; width:100%; object-fit: cover; "/>
             </div>
           </div>
         </div>
@@ -267,9 +270,9 @@
       <!-- Item -->
       <div class="item">
         <div class="img-fill">
-          <div class="info">
-            <div>
-              <img src="picturetest1.jpg"  style="height:100%; width:100%;object-fit: contain;" />
+          <div class="info" style="height:100%">
+            <div style="height:100%; width:100%">
+              <img src="picturetest1.jpg"  style="height:100%; width:100%; object-fit: cover;" />
             </div>
           </div>
         </div>
@@ -278,9 +281,9 @@
       <!-- Item -->
       <div class="item">
         <div class="img-fill">
-          <div class="info">
-            <div>
-              <img src="picturetest2.jpg" style="height:100%; width:100%;object-fit: contain;" />
+          <div class="info" style="height:100%">
+            <div style="height:100%; width:100%">
+              <img src="picturetest2.jpg" style="height:100%; width:100%; object-fit: cover;" />
             </div>
           </div>
         </div>
@@ -288,9 +291,9 @@
 
       <div class="item">
         <div class="img-fill">
-          <div class="info">
-            <div>
-              <img src="recruitment2.jpg" style="height:100%; width:100%;object-fit: contain;" />
+          <div class="info" style="height:100%">
+            <div style="height:100%; width:100%">
+              <img src="recruitment2.jpg" style="height:100%; width:100%; object-fit: cover;" />
             </div>
           </div>
         </div>
