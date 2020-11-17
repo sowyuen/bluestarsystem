@@ -401,7 +401,7 @@ hr.solid {
 
 /* ==== Slider Style === */
 .Modern-Slider .item .img-fill{
-  height:500px;
+  height:420px;
   background:white;
 }
 
@@ -411,7 +411,7 @@ hr.solid {
   height:100%;
   top:0px;
   left:0px;
-  line-height:500px;
+  line-height:350px;
   text-align:center;
 }
 
