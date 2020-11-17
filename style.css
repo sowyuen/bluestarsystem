@@ -416,7 +416,7 @@ hr.solid {
 }
 
 .Modern-Slider .item .info > div{
-  display:inline-block;
+  display:inline-block !important;
   vertical-align:middle;
 }
 
@@ -424,35 +424,41 @@ hr.solid {
   position:absolute;
   top:50%;
   right:0px;
-  width:45px;
-  height:45px;
-  background:rgba(0,0,0,0.5);
+  width:30px;
+  height:30px;
+  background-color:#f1f1f1;
+  color:black;
   border:0 none;
-  margin-top:-22.5px;
+  outline: none;
+  margin-top:-23.5px;
   text-align:center;
-  font:20px/45px FontAwesome;
-  color:#FFF;
+  font:18px/30px FontAwesome;
   z-index:5;
+  border-radius:50%;
 }
 
-.Modern-Slider .NextArrow:before{content:'>';}
+.Modern-Slider .NextArrow:before{
+  content:'>';
+}
 
 .Modern-Slider .PrevArrow{
   position:absolute;
   top:50%;
   left:0px;
-  width:45px;
-  height:45px;
-  background:rgba(0,0,0,.50);
+  width:30px;
+  height:30px;
+  background-color:#f1f1f1;
+  color:black;
   border:0 none;
+  outline: none;
   margin-top:-22.5px;
   text-align:center;
-  font:20px/45px FontAwesome;
-  color:white;
+  font:18px/30px FontAwesome;
   z-index:5;
+  border-radius:50%;
 }
 
-.Modern-Slider .PrevArrow:before{content:'<';}
+.Modern-Slider .PrevArrow:before{content:'<'}
 
 .Modern-Slider .slick-dots{
   position:absolute;
@@ -470,7 +476,7 @@ hr.solid {
   float:left;
   width:0px;
   height:5px;
-  background:#5089f2;
+  background:#A58C31;
   position:absolute;
   left:0px;
   bottom:0px;
@@ -481,7 +487,7 @@ hr.solid {
   animation:ProgressDots 11s both;
 }
 
-.Modern-Slider .item h3{
+.Modern-Slider .item{
   font:30px/50px RalewayB;
   text-transform:uppercase;
   color:black;
@@ -593,5 +599,5 @@ hr.solid {
 .slick-vertical .slick-slide{
   display:block;
   height:auto;
-  border:1px solid transparent;
+  border:0px solid transparent;
 }

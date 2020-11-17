@@ -1,29 +1,5 @@
-// var slideIndex = 0;
-// showSlides();
-
-// function showSlides() {
-//   var i;
-//   var slides = document.getElementsByClassName("mySlides");
-//   for (i = 0; i < slides.length; i++) {
-//     slides[i].style.display = "none";
-//   }
-//   slideIndex++;
-//   if (slideIndex > slides.length) {slideIndex = 1}
-//   slides[slideIndex-1].style.display = "block";
-//   setTimeInterval(showSlides,2000);// Change image every 2 seconds
-//   console.log("slide index:", slideIndex);
-// }
-
-// function plusDivs(n) {
-// 		 slideIndex += n;
-// 		 showSlides(slideIndex);
-// 		 console.log("inside plusDivs", slideIndex);
-// 	}
-
-
-
 window.onload=function(){
-  $(".Modern-Slider").slick({
+   $(".Modern-Slider").slick({
     autoplay:true,
     autoplaySpeed:10000,
     speed:600,
@@ -31,10 +7,12 @@ window.onload=function(){
     slidesToScroll:1,
     pauseOnHover:false,
     dots:true,
-    pauseOnDotsHover:true,
+    pauseOnDotsHover:false,
     cssEase:'linear',
-   // fade:true,
+   	fade:true,
     draggable:false,
+    infinite: true,
+    pauseOnFocus: false, 
     prevArrow:'<button class="PrevArrow"></button>',
     nextArrow:'<button class="NextArrow"></button>', 
   });
