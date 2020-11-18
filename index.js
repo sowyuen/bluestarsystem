@@ -9,9 +9,7 @@ window.onload=function(){
     dots:true,
     pauseOnDotsHover:false,
     cssEase:'linear',
-   	fade:true,
     draggable:false,
-    infinite: true,
     pauseOnFocus: false, 
     prevArrow:'<button class="PrevArrow"></button>',
     nextArrow:'<button class="NextArrow"></button>', 
@@ -91,3 +89,5 @@ function JSFiddleSubmit()
     alert("Cannot properly submit data on JS Fiddle. Please view our GitHub repository for the full deployment source code: https://github.com/solodev/impressive-contact-us-page");
     //return false;
 };
+
+
