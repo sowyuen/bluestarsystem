@@ -493,7 +493,7 @@ hr.solid {
   text-transform:uppercase;
   color:black;
   background-color:white;
-  animation:fadeOutRight 1s both;
+/*  animation:fadeOutRight 1s both;*/
   margin:0;
   padding:0;
 }
@@ -506,16 +506,16 @@ hr.solid {
   max-width:600px;
   overflow:hidden;
   height:60px;
-  animation:fadeOutLeft 1s both;
+/*  animation:fadeOutLeft 1s both;*/
 }
 
-
+/*
 .Modern-Slider .item.slick-active h5 h3{
   animation:fadeInLeft 1s both 1s;
 }
 
 .Modern-Slider .item.slick-active{
-  animation:fadeInLeft 1s both;
+  animation:fadeInLeft 1s both;*/
 }
 
 .Modern-Slider {background:white;}

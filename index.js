@@ -8,7 +8,7 @@ window.onload=function(){
     pauseOnHover:false,
     dots:true,
     pauseOnDotsHover:false,
-    cssEase:'linear',
+    // cssEase:'linear',
     draggable:false,
     pauseOnFocus: false, 
     prevArrow:'<button class="PrevArrow"></button>',
